@@ -48,7 +48,9 @@ public class C02_GetRequest_ResponseBilgilerininManuelTestEdilmesi {
                 "\n Server Header degeri : " + response.getHeader("Server") +
                 "\n Status Line : " + response.getStatusLine() +
                 "\n Status Line : " + response.getTime() + "ms");
+
         // 4- Assertion
+
 
     }
 }
