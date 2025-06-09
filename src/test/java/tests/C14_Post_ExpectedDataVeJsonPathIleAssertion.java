@@ -49,6 +49,7 @@ public class C14_Post_ExpectedDataVeJsonPathIleAssertion {
             "additionalneeds" : "wi-fi"
         }
          */
+
         // 1- endpoint ve request body hazirla
         String url = "https://restful-booker.herokuapp.com/booking";
 
