@@ -82,7 +82,7 @@ public class C18_BaseUrlHerokuapp extends BaseUrlHerokuapp {
         /*
             {
                     "firstname" : "Ahmet",
-                    "lastname" : “Bulut",
+                    "lastname" : "Bulut",
                     "totalprice" : 500,
                     "depositpaid" : false,
                     "bookingdates" : {
