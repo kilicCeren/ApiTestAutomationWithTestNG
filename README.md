@@ -126,7 +126,31 @@ Projede kullanılan temel kütüphaneler:
 * Serialization & Deserialization işlemleri
 * SoftAssert ile çoklu doğrulamalar
 
+---
 
+ ## ▶️ Projeyi Çalıştırma Adımları
+
+1. Repository'i klonlayın:
+```
+git clone https://github.com/kilicCeren/ApiTestAutomationWithTestNG.git
+```
+2. IntelliJ IDEA ile projeyi açın
+
+3. Maven bağımlılıklarını yükleyin:
+```
+mvn clean install
+```
+4. Tüm testleri çalıştırmak için:
+```
+mvn test
+```
+5. İsterseniz belirli bir test sınıfını IDE üzerinden çalıştırabilirsiniz.
+
+---
+
+## 📝 Lisans
+Bu proje kişisel eğitim ve portföy amaçlıdır.
+API test otomasyonu üzerine edindiğim bilgileri uygulamalı olarak pekiştirdiğim bir çalışmadır.
 
 
  
