@@ -152,5 +152,24 @@ mvn test
 Bu proje kişisel eğitim ve portföy amaçlıdır.
 API test otomasyonu üzerine edindiğim bilgileri uygulamalı olarak pekiştirdiğim bir çalışmadır.
 
+---
 
- 
+# 🌐 ApiTestAutomationWithTestNG
+
+This repository contains **REST API test automation** examples based on **Rest-Assured + TestNG**, developed using the **Java** programming language.  
+The project is a comprehensive educational and practical study that aims to teach how to design end-to-end API test scenarios with different HTTP methods, JSON validations, POJO modeling, and a structured TestNG architecture.
+
+Tests are scenario-based to perform response validations on real services using GET, POST, PUT, and DELETE operations.
+
+---
+
+## 🎯 Project Purpose
+
+- Automate testing of REST API services  
+- Learn the usage of HTTP methods (GET, POST, PUT, DELETE)  
+- Perform response body and status code validations  
+- Implement field-based validations using JSONPath  
+- Understand serialization & deserialization processes with POJO classes  
+- Create an organized test structure with TestNG  
+
+
