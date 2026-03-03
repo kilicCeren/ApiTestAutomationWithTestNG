@@ -170,6 +170,34 @@ Tests are scenario-based to perform response validations on real services using 
 - Perform response body and status code validations  
 - Implement field-based validations using JSONPath  
 - Understand serialization & deserialization processes with POJO classes  
-- Create an organized test structure with TestNG  
+- Create an organized test structure with TestNG
+
+---
+
+## 🛠️ Technologies and Tools Used
+
+| Technology | Description |
+|----------|----------|
+| **Java 17** | Test automation language |
+| **Rest-Assured** | REST API test automation |
+| **TestNG** | Test management and assertion structure |
+| **Gson** | JSON ↔ Java conversions |
+| **org.json** | JSON object creation and processing |
+| **Maven** | Project dependency management |
+| **IntelliJ IDEA** | Development environment (IDE) |
+
+---
+
+## 📦 Dependencies (pom.xml)
+
+Main libraries used in the project:
+
+- Rest-Assured → For performing API tests  
+- TestNG → For executing and organizing test scenarios  
+- Gson → For serialization & deserialization operations  
+- org.json → For creating and managing JSON objects  
+- JUnit → Helper test annotations (test scope)  
+
+---
 
 
