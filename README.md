@@ -200,4 +200,70 @@ Main libraries used in the project:
 
 ---
 
+## 📁 Project Structure
+
+```ApiTestAutomationWithTestNG/
+├── .idea/
+├── src/
+│ └── test/
+│     └── java/
+│         ├── baseUrl/                # Base URL configurations for API endpoints
+│         │   ├── BaseUrlDummyExample.java
+│         │   ├── BaseUrlHerokuapp.java
+│         │   └── BaseUrlJsonPlaceholder.java
+│         │
+│         ├── pojos/                  # POJO classes for request/response bodies
+│         │   ├── pojosHavaDurumu/
+│         │   ├── PojoDummyExampleData.java
+│         │   ├── PojoDummyExampleResponse.java
+│         │   ├── PojoHerokuappBookingdates.java
+│         │   ├── PojoHerokuappRequestBody.java
+│         │   ├── PojoHerokuappResponseBody.java
+│         │   └── PojoJsonPlaceholder.java
+│         │
+│         ├── testDatalari/           # Static/dynamic test data used in tests
+│         │   ├── TestDataDummyExample.java
+│         │   ├── TestDataHerokuapp.java
+│         │   └── TestDataJsonPlaceholder.java
+│         │
+│         └── tests/                  # All API test scenarios
+│             ├── C01_GetRequest_ResponseBodyYazdirma.java
+│             ├── C02_GetRequest_ResponseBilgilerininManuelTestEdilmesi.java
+│             ├── C03_Get_ResponseDegerleriniOtomasyonIleTestEtme.java
+│             ├── C04_JsonObjesiOlusturma.java
+│             ├── C05_JsonObjesiOlusturma.java
+│             ├── C06_Put_ResponseBilgileriAssertion.java
+│             ├── C07_Get_ResponseBodyTesti.java
+│             ├── C08_Post_ResponseBodyTesti.java
+│             ├── C09_Get_TestYaparkenTekrarlardanKurtulma.java
+│             ├── C10_JsonPathKullanimi.java
+│             ├── C11_Post_JsonPathIleBodyTesti.java
+│             ├── C12_Get_ResponseBodyTestiListKullanimi.java
+│             ├── C13_Get_ExpectedDataOlusturma.java
+│             ├── C14_Post_ExpectedDataVeJsonPathIleAssertion.java
+│             ├── C15_Get_SoftAssertIleExpectedDataTesti.java
+│             ├── C16_Put_SoftAssertIleExpectedDataTesti.java
+│             ├── C17_BaseUrlJsonPlaceholderRestapi.java
+│             ├── C18_BaseUrlHerokuapp.java
+│             ├── C19_BaseUrlHerokuappQueryParam.java
+│             ├── C20_Get_TestDataClassKullanimi.java
+│             ├── C21_Get_TestDataClassKullanimiDinamik.java
+│             ├── C22_Put_TestDataClassKullanimi.java
+│             ├── C23_Get_TestDataKullanimi.java
+│             ├── C24_Post_TestDataKullanimi.java
+│             ├── C25_Put_DeSerialization.java
+│             ├── C26_Get_DeSerialization.java
+│             ├── C27_Post_Deserialization.java
+│             ├── C28_Put_PojoClass.java
+│             ├── C29_Post_Pojo.java
+│             ├── C30_Get_Pojo.java
+│             └── C31_Post_Pojo.java
+│
+├── pom.xml
+├── .gitignore
+└── README.md
+```
+
+---
+
 
