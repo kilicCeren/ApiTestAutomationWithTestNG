@@ -266,4 +266,21 @@ Main libraries used in the project:
 
 ---
 
+## 🧪 Test Structure and Logic
+
+* Tests are written using Rest-Assured + TestNG
+* Each class focuses on a specific endpoint or test scenario
+* JSON responses are validated using:
+    * JSONPath
+    * POJO deserialization
+    * SoftAssert / HardAssert
+* Main scenarios implemented in the project:
+* Fetching and validating data with GET requests
+* Creating data tests with POST requests
+* Updating data tests with PUT requests
+* Creating and sending JSON objects
+* Generating dynamic data using TestData classes
+* Serialization & Deserialization operations
+* Multiple validations with SoftAssert
+
 
